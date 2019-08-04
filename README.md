@@ -1,10 +1,8 @@
 # @github1/smerge
 
-A merge library with support for deep merge or replacement of values at particular paths within the target object
+[description]
 
-[![build status](https://img.shields.io/travis/github1/smerge/master.svg?style=flat-square)](https://travis-ci.org/github1/smerge)
-[![npm version](https://img.shields.io/npm/v/@github1/smerge.svg?style=flat-square)](https://www.npmjs.com/package/@github1/smerge)
-[![npm downloads](https://img.shields.io/npm/dm/@github1/smerge.svg?style=flat-square)](https://www.npmjs.com/package/@github1/smerge)
+[badges]
 
 ## Install
 ```bash
@@ -97,4 +95,4 @@ smerge({
 ```
 
 ## License
-[MIT](LICENSE.md)
+[license]
