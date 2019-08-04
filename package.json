@@ -1,8 +1,8 @@
 {
   "name": "@github1/smerge",
   "private": false,
-  "version": "0.0.0",
-  "description": "A javascript object merge module with support for deep merge or replace at particular paths within the target object",
+  "version": "0.3.0",
+  "description": "A merge library with support for deep merge or replacement of values at particular paths within the target object",
   "main": "src/smerge.js",
   "scripts": {
     "build": "build-tools-build-lib",
@@ -11,9 +11,14 @@
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
-    "@github1/build-tools": "0.0.0"
+    "@github1/build-tools": "0.3.0"
   },
   "publishConfig": {
     "access": "public"
+  },
+  "license": "MIT",
+  "author": "John Collier <john.collier4@gmail.com>",
+  "repository": {
+    "type": "git"
   }
 }
