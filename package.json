@@ -1,8 +1,8 @@
 {
   "name": "@github1/smerge",
   "private": false,
-  "version": "0.3.1",
-  "description": "A javascript object merge module with support for deep merge or replace at particular paths within the target object",
+  "version": "0.4.0",
+  "description": "A merge library with support for deep merge or replacement of values at particular paths within the target object",
   "main": "src/smerge.js",
   "scripts": {
     "build": "build-tools-build-lib",
@@ -11,7 +11,7 @@
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
-    "@github1/build-tools": "0.3.1"
+    "@github1/build-tools": "0.3.2"
   },
   "publishConfig": {
     "access": "public"
