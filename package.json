@@ -1,17 +1,17 @@
 {
   "name": "@github1/smerge",
   "private": false,
-  "version": "0.4.20",
+  "version": "0.4.3",
   "description": "A merge library with support for deep merge or replacement of values at particular paths within the target object",
   "main": "dist/es5/smerge.js",
   "scripts": {
     "build": "build-tools-build-lib",
-    "test": "NO_SERVER=true build-tools test --coverage",
-    "test:watch": "NO_SERVER=true build-tools test --watch --coverage",
+    "test": "build-tools test --coverage",
+    "test:watch": "build-tools test --watch --coverage",
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
-    "@github1/build-tools": "0.4.20"
+    "@github1/build-tools": "0.4.45"
   },
   "publishConfig": {
     "access": "public"
